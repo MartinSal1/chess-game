@@ -56,6 +56,20 @@ body {
   padding: 0;
 }
 
+.chessboard {
+  display: grid;
+  clear: both;
+  content: '';
+  grid-template-columns: repeat(8, .1fr);
+  width: 300px;
+}
+
+.chess-row {
+  justify-content:center;
+
+  background-color: aqua;
+}
+
 .square {
   background: #fff;
   border: 1px solid #999;
@@ -71,15 +85,14 @@ body {
   width: 34px;
 }
 
-.Board {
-  clear: both;
-  content: '';
-  display: grid;
-}
+
+
+
 
 .status {
   margin-bottom: 10px;
 }
+
 .game {
   display: flex;
   flex-direction: row;

@@ -1,6 +1,6 @@
 export default function Board() {
-  return <div className="Board">
-  <div className="row-1">
+  return <div className="chessboard">
+  <div className="chess-row row-1">
   <button className="square">X</button>
   <button className="square">X</button>
   <button className="square">X</button>
@@ -10,7 +10,7 @@ export default function Board() {
   <button className="square">X</button>
   <button className="square">X</button>
   </div>
-  <div className="row-2">
+  <div className="chess-row row-2">
   <button className="square">X</button>
   <button className="square">X</button>
   <button className="square">X</button>
@@ -20,7 +20,7 @@ export default function Board() {
   <button className="square">X</button>
   <button className="square">X</button>
   </div>
-  <div className="row-3">
+  <div className="chess-row row-3">
   <button className="square">X</button>
   <button className="square">X</button>
   <button className="square">X</button>
@@ -30,7 +30,7 @@ export default function Board() {
   <button className="square">X</button>
   <button className="square">X</button>
   </div>
-  <div className="row-4">
+  <div className="chess-row row-4">
   <button className="square">X</button>
   <button className="square">X</button>
   <button className="square">X</button>
@@ -40,7 +40,7 @@ export default function Board() {
   <button className="square">X</button>
   <button className="square">X</button>
   </div>
-  <div className="row-5">
+  <div className="chess-row row-5">
   <button className="square">X</button>
   <button className="square">X</button>
   <button className="square">X</button>
@@ -50,7 +50,7 @@ export default function Board() {
   <button className="square">X</button>
   <button className="square">X</button>
   </div>
-  <div className="row-6">
+  <div className="chess-row row-6">
   <button className="square">X</button>
   <button className="square">X</button>
   <button className="square">X</button>
@@ -60,7 +60,7 @@ export default function Board() {
   <button className="square">X</button>
   <button className="square">X</button>
   </div>
-  <div className="row-7">
+  <div className="chess-row row-7">
   <button className="square">X</button>
   <button className="square">X</button>
   <button className="square">X</button>
@@ -70,7 +70,7 @@ export default function Board() {
   <button className="square">X</button>
   <button className="square">X</button>
   </div>
-  <div className="row-8">
+  <div className="chess-row row-8">
   <button className="square">X</button>
   <button className="square">X</button>
   <button className="square">X</button>
